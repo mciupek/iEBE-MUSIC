@@ -466,6 +466,7 @@ def zip_results_into_hdf5(final_results_folder, event_id, para_dict):
         'NpartList{}.dat'.format(event_id),
         'NpartdNdy-t0.6-{}.dat'.format(event_id),
         'NgluonEstimators{}.dat'.format(event_id),
+        'ImpactParameter{}.dat'.format(event_id),
         'usedParameters{}.dat'.format(event_id),
     ]
     initial_state_filelist2 = [
